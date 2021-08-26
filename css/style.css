@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-family: "open sans", sans-serif;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.col-md {
+  border: 1px solid black;
+  border-radius: 8%;
+  width: 18rem;
+  margin: 15px auto;
+  height: 18rem;
+  -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: #f4f3ee;
+}
+/*# sourceMappingURL=style.css.map */

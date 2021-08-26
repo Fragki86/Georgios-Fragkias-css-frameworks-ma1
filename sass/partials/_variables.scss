@@ -1,0 +1,11 @@
+$colours: (
+    bg-grey: #e5e5e5,
+    details-grey: #8d8d8d,
+    primary-grey: #f4f3ee,
+    pinky: #c32c72,
+    headings-dark: #463f3a,
+);
+
+@function getColour($colourSelect) {
+    @return map-get($colours, $colourSelect)
+}
