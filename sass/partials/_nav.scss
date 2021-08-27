@@ -5,20 +5,15 @@
 
 .navbar {
     background-color: getColour(primary-grey) !important;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
     color: getColour(pinky);
 }
-
-
-.collapse {
-    z-index: 1;
-}
-
-// .navbar-collapse .collapse .show {
-//     z-index: 1;
-// }
 
 .navbar-toggler {
     border: none;
