@@ -1,3 +1,25 @@
+.navbar-brand {
+    font-size: 36px;
+    font-family: $font-primary;
+}
+
+.navbar {
+    background-color: getColour(primary-grey) !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: getColour(pinky);
+}
+
+
+.collapse {
+    z-index: 1;
+}
+
+// .navbar-collapse .collapse .show {
+//     z-index: 1;
+// }
+
 .navbar-toggler {
     border: none;
 }
